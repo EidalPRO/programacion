@@ -15,10 +15,16 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
 /* barra de navegacion */
 .navbar {
     padding: 10px;
-    background-color: rgba(189, 255, 216, 0.692);
+    /* background-color: rgba(189, 255, 216, 0.692); */
 }
 .navbar-collapse {
     display: flex;
@@ -57,4 +63,15 @@ html {
 }
 .hero-contenedor img:hover {
     transform: scale(0.9);
+}
+
+/* que es la programacion */
+
+.programacion-contenedor {
+    margin-top: 20px;
+    height: 500px;
+    background-color: rgba(189, 255, 216, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
