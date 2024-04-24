@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    /* background: #f5f6f7; */
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* barra de navegacion */
+.navbar {
+    padding: 10px;
+    background-color: rgba(189, 255, 216, 0.692);
+}
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+/* hero */
+.hero-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* background-color: rgba(189, 255, 216, 0.692); */
+}
+
+.hero-contenedor h1 {
+    margin-top: 10px;
+    user-select: none;
+    font-family: "Bebas Neue", sans-serif;
+    /* font-family: "Jersey 10", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+}
+.hero-contenedor img {
+    width: 500px;
+    /* box-shadow: 0px 0px 30px #000; */
+    filter: drop-shadow(0px 0px 10px #000);
+    transition: 3s;
+}
+.hero-contenedor img:hover {
+    transform: scale(0.9);
+}
