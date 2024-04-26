@@ -25,7 +25,7 @@ p {
     font-size: 20px;
 }
 
-h3 h5 h4{
+h3 h5 h4 {
     font-weight: bold;
 }
 
@@ -102,6 +102,7 @@ h3 h5 h4{
     transition: 3s;
     box-shadow: 0px 0px 20px #000
 }
+
 .card:hover {
     transform: scale(1.01);
 }
@@ -112,8 +113,16 @@ h3 h5 h4{
     align-items: center;
 }
 
+
 @media screen and (max-width: 768px) {
     .programacion-contenedor img {
         max-width: 250px;
+    }
+
+    .lenguaje-contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
     }
 }
