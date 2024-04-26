@@ -16,9 +16,17 @@ html {
 }
 
 section {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 h5 h4{
+    font-weight: bold;
 }
 
 /* barra de navegacion */
@@ -26,11 +34,13 @@ section {
     padding: 10px;
     /* background-color: rgba(189, 255, 216, 0.692); */
 }
+
 .navbar-collapse {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
@@ -55,23 +65,55 @@ section {
     font-weight: 400;
     font-style: normal;
 }
+
 .hero-contenedor img {
+    user-select: none;
     width: 500px;
     /* box-shadow: 0px 0px 30px #000; */
-    filter: drop-shadow(0px 0px 10px #000);
+    /* filter: drop-shadow(0px 0px 10px #000); */
     transition: 3s;
 }
+
 .hero-contenedor img:hover {
     transform: scale(0.9);
 }
 
-/* que es la programacion */
+/* FUNDAMENTOS BASICOS */
 
 .programacion-contenedor {
-    margin-top: 20px;
-    height: 500px;
+    width: 100%;
+    margin-top: 25px;
+    height: auto;
     background-color: rgba(189, 255, 216, 0.692);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.programacion-contenedor h1 {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: 3s;
+    box-shadow: 0px 0px 20px #000
+}
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card-imagen-contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .programacion-contenedor img {
+        max-width: 250px;
+    }
 }
