@@ -116,8 +116,7 @@ h3 h5 h4 {
 }
 
 .lista-2 {
-    margin-left: 20px;
-    margin-right: 10px;
+    padding-left: 40px;
 }
 
 
@@ -153,7 +152,8 @@ h3 h5 h4 {
 }
 
 .df-contenedor img {
-    max-width: 400px;
+    /* width: 350px; */
+    margin-top: 10px;
 }
 
 .df-btn a {
@@ -170,4 +170,39 @@ h3 h5 h4 {
 
 .df-fin {
     flex-direction: column;
+}
+
+
+footer {
+    min-height: auto;
+    background-color: rgba(189, 255, 216, 0.692);
+    font-family: 'Arsenal', sans-serif;
+    margin-top: 10px;
+}
+
+footer h5 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-icono {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.derechos-autor {
+    font-size: 15px;
+    padding: 20px;
+    color: #aeaeae;
+}
+
+.derechos-autor p {
+    font-size: 12px;
 }
