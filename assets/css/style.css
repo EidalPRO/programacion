@@ -9,6 +9,7 @@
     /* background: #f5f6f7; */
     box-sizing: border-box;
     font-family: 'Arsenal', sans-serif;
+    user-select: none;
 }
 
 html {
@@ -141,7 +142,7 @@ h3 h5 h4 {
     align-items: center;
 }
 
-.df-contenedor h2 {
+h2 {
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
 }
@@ -205,4 +206,33 @@ footer .container {
 
 .derechos-autor p {
     font-size: 12px;
+}
+
+.ide-contendor {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.ide-contendor img {
+    /* width: 350px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ide-img {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.poo-contenedor img {
+    max-width: 300px;
+    transition: 3s;
+}
+
+.poo-contenedor img:hover {
+    transform: scale(0.9);
 }
